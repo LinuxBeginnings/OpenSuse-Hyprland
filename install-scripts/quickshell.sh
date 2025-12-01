@@ -25,21 +25,15 @@ fi
 # Set the name of the log file to include the current date and time
 LOG="Install-Logs/install-$(date +'%d-%H%M%S')_quick.log"
 
-# Installing packages from OBS
+# Ensure the darix-playground repository is added
+printf "${NOTE} Adding ${SKY_BLUE}darix-playground${RESET} repository...\n"
+if ! sudo zypper lr | grep -q "darix-playground"; then
+  sudo zypper ar -f https://download.opensuse.org/repositories/home:darix:playground/openSUSE_Tumbleweed/home:darix:playground.repo darix-playground 2>&1 | tee -a "$LOG"
+fi
+
+# Installing packages via zypper
 printf "${NOTE} Installing ${SKY_BLUE}quickshell for Desktop Overview${RESET} ...\n"
-for opi_pkg in "${quick[@]}"; do
-  install_package_opi "$opi_pkg" "$LOG"
+for pkg in "${quick[@]}"; do
+  printf "${NOTE} Installing ${SKY_BLUE}${pkg}${RESET}...\n" | tee -a "$LOG"
+  sudo zypper in -y "$pkg" 2>&1 | tee -a "$LOG"
 done
-
-# removal of ags
-# Check if the file exists and remove it
-printf "\n%s - removing ${SKY_BLUE}AGS${RESET}  \n" "${NOTE}"
-if [ -f "/usr/local/bin/ags" ]; then
-    sudo rm -r /usr/local/bin/ags
-fi
-
-if [ -d "/usr/local/share/com.github.Aylur.ags" ]; then
-    sudo rm -rf /usr/local/share/com.github.Aylur.ags
-fi
-
-printf "\n%.0s" {1..2}
