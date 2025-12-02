@@ -7,9 +7,13 @@ sddm_no=(
 )
 
 sddm=(
-  qt6-qt5compat-imports
+  libQt6Svg6
   qt6-declarative
   qt6-svg
+  qt6-virtualkeyboard
+  qt6-virtualkeyboard-imports
+  qt6-multimedia
+  qt6-multimedia-imports
   xorg-x11-server
   xf86-input-evdev
 )
@@ -75,6 +79,5 @@ sudo systemctl enable sddm.service 2>&1 | tee -a "$LOG"
 
 wayland_sessions_dir=/usr/share/wayland-sessions
 [ ! -d "$wayland_sessions_dir" ] && { printf "$CAT - $wayland_sessions_dir not found, creating...\n"; sudo mkdir -p "$wayland_sessions_dir" 2>&1 | tee -a "$LOG"; }
-sudo cp assets/hyprland.desktop "$wayland_sessions_dir/" 2>&1 | tee -a "$LOG"
 
 printf "\n%.0s" {1..2}
