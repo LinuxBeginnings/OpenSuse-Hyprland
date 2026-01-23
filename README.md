@@ -219,7 +219,7 @@ env = WLR_RENDERER_ALLOW_SOFTWARE,1
 #### ⌨ Keybinds
 - Keybinds [`CLICK`](https://github.com/JaKooLit/Hyprland-Dots/wiki/Keybinds)
 > [!TIP]
-> KooL's Dots v2.3.7 has a searchable keybind function via rofi. (SUPER SHIFT K) or right click the `HINTS` waybar button
+> KooL's Dots v2.3.7+ has a searchable keybind function via rofi. (SUPER SHIFT K) or right click the `HINTS` waybar button
 
 #### ✍️ Contributing
 - As stated above, these script does not contain actual config files. These are only the installer of packages
@@ -229,7 +229,7 @@ env = WLR_RENDERER_ALLOW_SOFTWARE,1
 
 
 #### 📒 Final Notes
-- join my discord channel [`Discord`](https://discord.com/invite/kool-tech-world)
+- join my discord channel [`Discord`](https://discord.gg/RZJgC7KAKm)
 - Feel free to copy, re-distribute, and use this script however you want. Would appreciate if you give me some loves by crediting my work :)
 
 #### 👍👍👍 Thanks and Credits!
