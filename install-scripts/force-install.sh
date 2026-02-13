@@ -1,5 +1,5 @@
 #!/bin/bash
-# 💫 https://github.com/JaKooLit 💫 #
+# 💫 https://github.com/LinuxBeginnings 💫 #
 # force reinstall packages cause it says its already installed but still not
 # some users report that they need to install this packages
 
