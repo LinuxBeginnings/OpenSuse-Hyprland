@@ -34,6 +34,7 @@ hypr_package=(
   openssl
   pamixer
   pavucontrol
+  pulseaudio-utils
   playerctl  
   polkit-gnome
   python312-requests
