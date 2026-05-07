@@ -10,6 +10,7 @@
 dependencies=(
     devel_basis
     rsync
+    socat # Needed for Tak0 scripts
 )
 
 # forced install as some reports failure that opi is not installed
