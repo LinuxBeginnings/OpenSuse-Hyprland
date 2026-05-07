@@ -10,7 +10,8 @@
 dependencies=(
     devel_basis
     rsync
-    socat # Needed for Tak0 scripts
+    socat   # Needed for Tak0 scripts
+    ddcutil # Needed for ExternalBrightness script
 )
 
 # forced install as some reports failure that opi is not installed
