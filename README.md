@@ -1,6 +1,11 @@
 <div align="center">
 
-# 💌 ** KooL's Opensuse Tumbleweed - Hyprland Install Script ** 💌
+# ********  This Repository is now ARCHIVED READ ONLY **********
+## It gets very little use and with the current LUA config change, I can't justify the time to keep this up to date. 
+## Effective:  14 May, 2026 
+
+
+## 💌 ** KooL's Opensuse Tumbleweed - Hyprland Install Script ** 💌
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/JaKooLit/Hyprland-Dots/main/assets/latte.png" width="400" />
