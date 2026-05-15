@@ -64,7 +64,7 @@ hypr_package=(
     slurp
     swappy
     SwayNotificationCenter
-    swww
+    awww
     unzip # required later
     wget
     wayland-protocols-devel
@@ -98,10 +98,7 @@ package_no_recommends=(
 
 # List of packages to uninstall as it conflicts some packages
 uninstall=(
-    aylurs-gtk-shell
-    dunst
     mako
-    rofi
 )
 
 ## WARNING: DO NOT EDIT BEYOND THIS LINE IF YOU DON'T KNOW WHAT YOU ARE DOING! ##
