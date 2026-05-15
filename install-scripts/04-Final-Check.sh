@@ -13,7 +13,7 @@ packages=(
     rofi
     ImageMagick
     SwayNotificationCenter
-    swww
+    awww
     waybar
     wl-clipboard
     wlogout
