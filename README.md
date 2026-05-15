@@ -1,6 +1,6 @@
 <div align="center">
 
-# ********  This Repository is now ARCHIVED READ ONLY **********
+# ***  This Repository is now ARCHIVED READ ONLY ***
 ## It gets very little use and with the current LUA config change, I can't justify the time to keep this up to date. 
 ## Effective:  14 May, 2026 
 
