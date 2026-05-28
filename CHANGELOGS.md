@@ -1,11 +1,14 @@
 ## CHANGELOG
 
-#### 📅 **Updated: April 19th, 2026**
+#### 📅 **Updated: May, 2026**
+
+- Sync'd current install scripts
+- Project is currently archived
+- Trying to keep it from getting to far adrift of current project code
+
+#### 📅 **Updated: April, 2026**
 
 - Fixed `install.sh` overwritting fastfetch config
-
-#### 📅 **Updated: April 14th, 2026**
-
 - Added missing QT kvantum pkgs to fix polykit issues
     - Programs like `easyeffects` and `timeshift` weren't starting
 
@@ -19,7 +22,7 @@
     - Thank you `@moukhtar22` for finding this and filing an issue
 - Added `hyprsunset`
 
-#### 📅 **Updated: March 27th, 2026**
+#### 📅 **Updated: March, 2026**
 
 - Added check for `rofi` it was begin removed
     - Script was trying to install `rofi-wayland`
