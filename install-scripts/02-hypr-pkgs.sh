@@ -16,6 +16,7 @@ Extra=(
     timeshift
     cronie
     debianutils
+    yazi
 )
 
 # packages neeeded
